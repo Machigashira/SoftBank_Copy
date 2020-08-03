@@ -3,6 +3,26 @@
     margin: 0px;
 }
 
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo2{
+    height: 28px;
+    width: 192px;
+}
+
+.logo_contener{
+    width: 385px;
+    margin: 30px auto;
+}
+
+.topic_logo{
+    width: 550px;
+    height: 550px;
+}
+
 .Blue_backcolor{
     background-color:#4788EE;
     color:white;
@@ -14,37 +34,69 @@
 .Black_backcolor{
     background-color: black;
     text-align: center;
-    padding: 90px;
+    padding-top: 30px;
 }
 
 .Red_backcolor{
     background-color: red;
     color: white;
-    padding: 35px;
     width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 
+    "... ... ... ..." 20px
+    "... grid-l grid-r ..." auto
+    "... ... ... ..." 20px
+    /20px 1fr 1fr 20px;
+}
+
+.grid-l{
+    grid-area: grid-l;
+    text-align: left;
+}
+
+.grid-r{
+    grid-area: grid-r;
+    text-align: right;
 }
 
 .White_backcolor{
     background-color: white;
-    width: 45%;
-    height: 160px;
+    width: calc(50% - 10px);
+    height: 220px;
     float: left;
-    padding: 10px;
+    margin-top: 10px;
 }
 
 .White_backcolor2{
     background-color: white;
-    width: 45%;
-    height: 160px;
-    float: right;
-    padding: 10px;
+    width: calc(50% - 10px);
+    height: 220px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .White_backcolor3{
     text-align: left;
     background-color: white;
     width: 100%;
-    padding: 30px;
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 90px;
+    display: grid;
+    grid-template:
+    "... ... ... ... ... ... ... ..." 20px
+    "... grid-c1 grid-c2 grid-c3 grid-c4 grid-c5 grid-c6 ..." auto
+    "... ... ... ... ... ... ... ..." 20px
+    /40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 40px;
+}
+
+.grid-c{
+    grid-area: grid-c;
+    text-align: center;
 }
 
 .Gray_backcolor{
@@ -53,6 +105,80 @@
     font-size: 14px;
     height: 200px;
     text-align: center;
+    padding: 40px;
+}
+
+.Gray_backcolor2{
+    min-height: 90px;
+    display: grid;
+    grid-template: 
+    "grid-l2 grid-r2" auto
+    /220px 1fr ;
+}
+
+.grid-l2{
+    background-color: #84919d;
+    color: white;
+    text-align: center;
+}
+
+.grid-r2{
+    background-color: #f1f1f2;
+    text-align: left;
+}
+
+.red_bottun{
+    color: white;
+    background-color: red;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    padding:16px 10px 16px;
+    min-width: 340px;
+}
+
+.blue_bottun{
+    color: white;
+    background-color: blue;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    padding:16px 10px 16px;
+    min-width: 340px;
+}
+
+.gray_bottun{
+    color: white;
+    background-color:#84919d;
+    border-radius: 12px;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+    padding: 5px 12px 3px;
+}
+
+.h2_white_backcolor{
+    text-align: center;
+    padding: 80px;
+}
+
+.hotword{
+    text-align: center;
+    color: #0080f4;
+    margin-bottom: 27px;
+}
+
+.hotword1{
+    font-size: 24px;
+    border-radius: 21px;
+    padding: 6.5px 32px 5.5px 20px;
+    border: 3px solid #0080f4;
+}
+
+.hotword2{
+    font-size: 19px;
+    border-radius: 17px;
+    padding: 6.5px 28px 5.5px 15px;
+    border: 3px solid #0080f4;
 }
 
 .font_red{
@@ -91,6 +217,12 @@
     text-align: center;
 }
 
+.contener{
+    max-width: 1260px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .border{
     padding: 10px;
     border-bottom: white solid;
@@ -98,9 +230,28 @@
 
 .border_l{
     float: left;
-    border-left: white solid;
+    border-left:white solid;
+}
+
+.border_f{
+    border-left: black solid 1px;
+}
+
+.border_f2{
+    border-right: black solid 1px;
 }
 
 .title-v1{
     font-size: 28px;
+}
+
+.footer{
+    padding: 14px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.menu{
+    background-color: #ecf0f4;
+    text-align: center;
 }
