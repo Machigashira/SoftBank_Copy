@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .logo{
     max-width: 100%;
     height: auto;
@@ -105,7 +109,7 @@
     font-size: 14px;
     height: 200px;
     text-align: center;
-    padding: 40px;
+    padding-top: 40px;
 }
 
 .Gray_backcolor2{
@@ -120,11 +124,23 @@
     background-color: #84919d;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .grid-r2{
     background-color: #f1f1f2;
     text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.sien{
+    margin: 0 auto;
+}
+
+.sien2{
+    margin: 30px;
 }
 
 .red_bottun{
@@ -209,6 +225,11 @@
     float: left;
 }
 
+.float_l2{
+    text-align: left;
+    width: 50%;
+}
+
 .float_r{
     float: right;
 }
@@ -254,4 +275,39 @@
 .menu{
     background-color: #ecf0f4;
     text-align: center;
+    padding-bottom: 100px;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.cardtopic{
+    font-size: 26px;
+    background-color: #0783f4;
+    color: white;
+    padding: 20px;
+}
+
+.cardimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.cardsub{
+    margin-top: 30px;
+}
+
+.cardcontent{
+    border-top: solid 2px #e5e5e5;
+    margin: 20px 40px -28px;
+    font-size: 18px;
 }
