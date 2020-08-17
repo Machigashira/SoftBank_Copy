@@ -27,6 +27,13 @@
     height: 550px;
 }
 
+.service_logo{
+    border-radius: 50%;
+    height: 86px;
+    width: 86px;
+    margin: 10px;
+}
+
 .Blue_backcolor{
     background-color:#4788EE;
     color:white;
@@ -195,6 +202,7 @@
     border-radius: 17px;
     padding: 6.5px 28px 5.5px 15px;
     border: 3px solid #0080f4;
+    margin-top: 80px;
 }
 
 .font_red{
@@ -245,8 +253,9 @@
 }
 
 .border{
-    padding: 10px;
     border-bottom: white solid;
+    margin: 20px ;
+
 }
 
 .border_l{
@@ -310,4 +319,21 @@
     border-top: solid 2px #e5e5e5;
     margin: 20px 40px -28px;
     font-size: 18px;
+}
+
+.service{
+    margin-top: 30px;
+}
+
+.paypay{
+    height: 30px;
+    width: 120px;
+    border-right: white solid 2px;
+    padding: 7px;
+}
+
+.paypay2{
+    height: 30px;
+    width: 120px;
+    padding: 7px;
 }
